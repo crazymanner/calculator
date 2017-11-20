@@ -18,25 +18,25 @@
         </div>
         <div class="calculator">
             <div class="display">
-                <div class="input">0</div>
+                <div class="input" id="num">0</div>
             </div>
             <div class="key_pad">
-                <div class="pad"><button class="num">7</button></div>
-                <div class="pad"><button class="num">8</button></div>
-                <div class="pad"><button class="num">9</button></div>
-                <div class="pad"><button class="opr">+</button></div>
-                <div class="pad"><button class="num">4</button></div>
-                <div class="pad"><button class="num">5</button></div>
-                <div class="pad"><button class="num">6</button></div>
-                <div class="pad"><button class="opr">-</button></div>
-                <div class="pad"><button class="num">1</button></div>
-                <div class="pad"><button class="num">2</button></div>
-                <div class="pad"><button class="num">3</button></div>
-                <div class="pad"><button class="opr">X</button></div>
-                <div class="pad"><button class="opr">C</button></div>
-                <div class="pad"><button class="num">0</button></div>
-                <div class="pad"><button class="opr">=</button></div>
-                <div class="pad"><button class="opr">/</button></div>
+                <div class="pad"><button class="num" onclick="inputNum(7)">7</button></div>
+                <div class="pad"><button class="num" onclick="inputNum(8)">8</button></div>
+                <div class="pad"><button class="num" onclick="inputNum(9)">9</button></div>
+                <div class="pad"><button class="opr" onclick="inputOpr('+')">+</button></div>
+                <div class="pad"><button class="num" onclick="inputNum(4)">4</button></div>
+                <div class="pad"><button class="num" onclick="inputNum(5)">5</button></div>
+                <div class="pad"><button class="num" onclick="inputNum(6)">6</button></div>
+                <div class="pad"><button class="opr" onclick="inputOpr('-')">-</button></div>
+                <div class="pad"><button class="num" onclick="inputNum(1)">1</button></div>
+                <div class="pad"><button class="num" onclick="inputNum(2)">2</button></div>
+                <div class="pad"><button class="num" onclick="inputNum(3)">3</button></div>
+                <div class="pad"><button class="opr" onclick="inputOpr('*')">X</button></div>
+                <div class="pad"><button class="opr" onclick="inputClr()">C</button></div>
+                <div class="pad"><button class="num" onclick="inputNum(0)">0</button></div>
+                <div class="pad"><button class="opr" onclick="inputOpr('=')">=</button></div>
+                <div class="pad"><button class="opr" onclick="inputOpr('/')">/</button></div>
             </div>
         </div>
     </div>
